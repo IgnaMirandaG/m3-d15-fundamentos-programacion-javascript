@@ -1,0 +1,37 @@
+.navbar {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    height: 34vw;
+    background-image: url(/assets/img/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(/assets/img/cartoon-style-superhero.jpeg);
+    height: 50vw;
+    opacity: 0.80;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main.container {
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
+    min-width: 0%;
+}
+
+/* header{
+    padding: 0;
+    scrollbar-gutter: 0;
+    margin-left: 0;
+} */
